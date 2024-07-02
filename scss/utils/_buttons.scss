@@ -1,0 +1,20 @@
+@use "../abstracts/index" as abstract;
+
+%btn {
+  margin: 24px 0;
+  background-color: #f4f6f8;
+  padding: 24px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  @extend %btn;
+
+  &:hover {
+    background-color: abstract.$muted-color;
+    color: abstract.$secondary-color;
+  }
+}

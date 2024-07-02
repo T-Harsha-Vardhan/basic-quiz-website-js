@@ -1,0 +1,48 @@
+@mixin setHeightWidth($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin flexContainer($height, $width, $flexDirection) {
+  @include setHeightWidth($height, $width);
+  display: flex;
+  flex-direction: $flexDirection;
+}
+
+@mixin flexContainerProperties(
+  $height,
+  $width,
+  $flexDirection,
+  $justifyContent,
+  $alignItems
+) {
+  @include flexContainer($height, $width, $flexDirection);
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin flexContainerPropertiesWithWrap(
+  $height,
+  $width,
+  $flexDirection,
+  $justifyContent,
+  $alignItems,
+  $flexWrap
+) {
+  @include flexContainerProperties(
+    $height,
+    $width,
+    $flexDirection,
+    $justifyContent,
+    $alignItems
+  );
+  flex-wrap: $flexWrap;
+}
+
+@mixin setPosition($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

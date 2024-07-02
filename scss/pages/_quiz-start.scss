@@ -1,0 +1,62 @@
+@use "../abstracts/index" as abstract;
+
+#quiz-start {
+  display: none;
+  @include abstract.setHeightWidth(95.48vh, 100%);
+
+  .wrapper {
+    @include abstract.flexContainerProperties(
+      100%,
+      null,
+      column,
+      space-between,
+      center
+    );
+    nav {
+      @include abstract.flexContainerProperties(
+        null,
+        100%,
+        row,
+        space-between,
+        center
+      );
+
+      img {
+        background-color: abstract.$secondary-color;
+        padding: 16px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+
+    main {
+      @include abstract.flexContainer(null, 50%, column);
+      margin: auto;
+      text-align: center;
+
+      h1 {
+        margin-bottom: 24px;
+      }
+
+      div {
+        width: fit-content;
+        margin: auto;
+        min-width: 100%;
+
+        h3 {
+          margin: 24px 0;
+          padding: 16px;
+          background-color: abstract.$secondary-color;
+          border-radius: 16px;
+          cursor: pointer;
+          user-select: none;
+
+          &:hover {
+            background-color: abstract.$muted-color;
+            color: abstract.$secondary-color;
+          }
+        }
+      }
+    }
+  }
+}

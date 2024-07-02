@@ -1,0 +1,54 @@
+@use "../abstracts/index" as abstract;
+
+#category {
+  overflow: hidden;
+  height: 95vh;
+
+  .wrapper {
+    height: 100%;
+    nav {
+      @include abstract.flexContainerProperties(
+        null,
+        null,
+        row,
+        center,
+        center
+      );
+      margin-bottom: 48px;
+    }
+
+    main {
+      overflow-y: auto;
+      height: 86%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 40px;
+      column-gap: 40px;
+      place-items: center;
+      padding: 16px 0;
+
+      .tech-card {
+        width: fit-content;
+        background-color: abstract.$secondary-color;
+        padding: 32px;
+        border-radius: 16px;
+        cursor: pointer;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    }
+
+    main::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    main::-webkit-scrollbar-track {
+      background-color: abstract.$secondary-color;
+      border-radius: 8px;
+    }
+
+    main::-webkit-scrollbar-thumb {
+      background-color: #d6d1cb;
+      border-radius: 8px;
+    }
+  }
+}

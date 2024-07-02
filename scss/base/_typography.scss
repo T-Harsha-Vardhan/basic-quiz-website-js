@@ -1,0 +1,19 @@
+@use "../abstracts/index" as abstract;
+
+h1 {
+  font-size: abstract.$heading1;
+  font-weight: 600;
+}
+h2 {
+  font-size: abstract.$heading2;
+  font-weight: 600;
+}
+h3 {
+  font-size: abstract.$heading3;
+  font-weight: 600;
+}
+
+p {
+  font-size: abstract.$paragraph;
+  font-weight: 600;
+}

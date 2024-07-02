@@ -1,0 +1,474 @@
+{
+  "html": {
+    "beginner": [
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "Home Tool Markup Language",
+          "Hyperlinks and Text Markup Language"
+        ],
+        "answer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+        "options": [
+          "To declare the document type",
+          "To include external CSS",
+          "To add a comment"
+        ],
+        "answer": "To declare the document type"
+      },
+      {
+        "question": "Which tag is used to create a hyperlink in HTML?",
+        "options": ["<a>", "<link>", "<href>"],
+        "answer": "<a>"
+      },
+      {
+        "question": "What does the <br> tag do in HTML?",
+        "options": [
+          "Creates a line break",
+          "Makes text bold",
+          "Creates a paragraph"
+        ],
+        "answer": "Creates a line break"
+      },
+      {
+        "question": "Which attribute is used to provide alternative text for an image?",
+        "options": ["alt", "title", "src"],
+        "answer": "alt"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How can you create an ordered list in HTML?",
+        "options": ["<ol>", "<ul>", "<list>"],
+        "answer": "<ol>"
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "options": [
+          "To define metadata",
+          "To include external scripts",
+          "To create a table"
+        ],
+        "answer": "To define metadata"
+      },
+      {
+        "question": "Which HTML tag is used to define an internal stylesheet?",
+        "options": ["<style>", "<css>", "<link>"],
+        "answer": "<style>"
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": ["<br>", "<break>", "<lb>"],
+        "answer": "<br>"
+      },
+      {
+        "question": "Which attribute specifies a unique identifier for an HTML element?",
+        "options": ["id", "class", "name"],
+        "answer": "id"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the correct syntax for including an external JavaScript file in HTML?",
+        "options": [
+          "<script src='script.js'></script>",
+          "<script href='script.js'></script>",
+          "<script link='script.js'></script>"
+        ],
+        "answer": "<script src='script.js'></script>"
+      },
+      {
+        "question": "How do you specify the character encoding for an HTML document?",
+        "options": [
+          "<meta charset='UTF-8'>",
+          "<meta encoding='UTF-8'>",
+          "<meta type='UTF-8'>"
+        ],
+        "answer": "<meta charset='UTF-8'>"
+      },
+      {
+        "question": "Which HTML element is used to specify a header for a document or section?",
+        "options": ["<header>", "<head>", "<section>"],
+        "answer": "<header>"
+      },
+      {
+        "question": "What does the <canvas> element in HTML do?",
+        "options": [
+          "It is used to draw graphics",
+          "It is used to create a form",
+          "It is used to create a table"
+        ],
+        "answer": "It is used to draw graphics"
+      },
+      {
+        "question": "Which attribute is used in HTML to define inline styles?",
+        "options": ["style", "class", "css"],
+        "answer": "style"
+      }
+    ]
+  },
+  "css": {
+    "beginner": [
+      {
+        "question": "What does CSS stand for?",
+        "options": [
+          "Cascading Style Sheets",
+          "Colorful Style Sheets",
+          "Computer Style Sheets"
+        ],
+        "answer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Which property is used to change the background color of an element?",
+        "options": ["color", "background-color", "bgcolor"],
+        "answer": "background-color"
+      },
+      {
+        "question": "How do you make the text bold in CSS?",
+        "options": [
+          "font-weight: bold;",
+          "font-style: bold;",
+          "text-decoration: bold;"
+        ],
+        "answer": "font-weight: bold;"
+      },
+      {
+        "question": "Which property is used to change the text color of an element?",
+        "options": ["font-color", "text-color", "color"],
+        "answer": "color"
+      },
+      {
+        "question": "How do you add a comment in CSS?",
+        "options": [
+          "// This is a comment",
+          "/* This is a comment */",
+          "<!-- This is a comment -->"
+        ],
+        "answer": "/* This is a comment */"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which CSS property is used to change the font of an element?",
+        "options": ["font-family", "font-style", "font-weight"],
+        "answer": "font-family"
+      },
+      {
+        "question": "How do you center a block element horizontally with CSS?",
+        "options": ["margin: center;", "margin: auto;", "text-align: center;"],
+        "answer": "margin: auto;"
+      },
+      {
+        "question": "What is the default value of the position property?",
+        "options": ["relative", "absolute", "static"],
+        "answer": "static"
+      },
+      {
+        "question": "How do you make a list that lists its items with squares?",
+        "options": [
+          "list-style-type: square;",
+          "list-type: square;",
+          "type: square;"
+        ],
+        "answer": "list-style-type: square;"
+      },
+      {
+        "question": "Which property is used to create space between the element’s border and inner content?",
+        "options": ["padding", "margin", "border"],
+        "answer": "padding"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How do you apply a CSS rule to an element with a specific class only when it is inside another specific element?",
+        "options": ["element .class", "element.class", "element > .class"],
+        "answer": "element .class"
+      },
+      {
+        "question": "Which property is used to define the behavior of an element when it is resized?",
+        "options": ["resize", "overflow", "transform"],
+        "answer": "resize"
+      },
+      {
+        "question": "What does the z-index property control?",
+        "options": [
+          "The stacking order of elements",
+          "The zoom level of elements",
+          "The z-coordinate of elements"
+        ],
+        "answer": "The stacking order of elements"
+      },
+      {
+        "question": "How do you create a CSS variable?",
+        "options": ["var name = value;", "--name: value;", "$name: value;"],
+        "answer": "--name: value;"
+      },
+      {
+        "question": "Which pseudo-class is used to style an element when it gets focus?",
+        "options": [":hover", ":active", ":focus"],
+        "answer": ":focus"
+      }
+    ]
+  },
+  "javascript": {
+    "beginner": [
+      {
+        "question": "What does 'var' stand for in JavaScript?",
+        "options": ["Variable", "Variance", "Variety"],
+        "answer": "Variable"
+      },
+      {
+        "question": "How do you create a function in JavaScript?",
+        "options": [
+          "function myFunction()",
+          "def myFunction()",
+          "function:myFunction()"
+        ],
+        "answer": "function myFunction()"
+      },
+      {
+        "question": "Which of the following is a JavaScript data type?",
+        "options": ["string", "number", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Which symbol is used for comments in JavaScript?",
+        "options": ["<!-- Comment -->", "// Comment", "/* Comment */"],
+        "answer": "// Comment"
+      },
+      {
+        "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+        "options": [
+          "<script src='script.js'>",
+          "<script href='script.js'>",
+          "<script ref='script.js'>"
+        ],
+        "answer": "<script src='script.js'>"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How do you declare a JavaScript variable?",
+        "options": ["var myVariable;", "v myVariable;", "variable myVariable;"],
+        "answer": "var myVariable;"
+      },
+      {
+        "question": "What is the correct way to write an 'if' statement in JavaScript?",
+        "options": ["if i == 5 then", "if (i == 5)", "if i = 5 then"],
+        "answer": "if (i == 5)"
+      },
+      {
+        "question": "Which method is used to add a new element at the end of an array?",
+        "options": ["push()", "pop()", "shift()"],
+        "answer": "push()"
+      },
+      {
+        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "options": [
+          "It refers to the current object",
+          "It refers to the previous object",
+          "It refers to the global object"
+        ],
+        "answer": "It refers to the current object"
+      },
+      {
+        "question": "How do you create a new object in JavaScript?",
+        "options": [
+          "var obj = {}",
+          "var obj = Object()",
+          "var obj = new Object()"
+        ],
+        "answer": "var obj = {}"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a closure in JavaScript?",
+        "options": [
+          "A function having access to its own scope, the outer function’s variables, and the global variables",
+          "A block of code that can be executed later",
+          "A function that runs automatically"
+        ],
+        "answer": "A function having access to its own scope, the outer function’s variables, and the global variables"
+      },
+      {
+        "question": "What is the purpose of the 'bind' method in JavaScript?",
+        "options": [
+          "To bind an event to an element",
+          "To bind the context of 'this' keyword in a function",
+          "To bind two variables together"
+        ],
+        "answer": "To bind the context of 'this' keyword in a function"
+      },
+      {
+        "question": "Which built-in method combines the text of two strings and returns a new string?",
+        "options": ["concat()", "append()", "attach()"],
+        "answer": "concat()"
+      },
+      {
+        "question": "What is the difference between '==' and '===' in JavaScript?",
+        "options": [
+          "'==' checks for equality only, while '===' checks for both equality and type",
+          "'===' checks for equality only, while '==' checks for both equality and type",
+          "They are the same"
+        ],
+        "answer": "'==' checks for equality only, while '===' checks for both equality and type"
+      },
+      {
+        "question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+        "options": [
+          "To handle asynchronous operations more easily",
+          "To pause code execution",
+          "To create promises"
+        ],
+        "answer": "To handle asynchronous operations more easily"
+      }
+    ]
+  },
+  "react js": {
+    "beginner": [
+      {
+        "question": "What is React?",
+        "options": [
+          "A JavaScript library for building user interfaces",
+          "A backend framework",
+          "A programming language"
+        ],
+        "answer": "A JavaScript library for building user interfaces"
+      },
+      {
+        "question": "How do you create a new React app using Create React App?",
+        "options": [
+          "npx create-react-app my-app",
+          "npm create my-app",
+          "react new my-app"
+        ],
+        "answer": "npx create-react-app my-app"
+      },
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "JavaScript XML",
+          "JavaScript Extension",
+          "JavaScript Syntax"
+        ],
+        "answer": "JavaScript XML"
+      },
+      {
+        "question": "How do you render a React component?",
+        "options": [
+          "ReactDOM.render(<App />, document.getElementById('root'));",
+          "React.render(<App />, document.getElementById('root'));",
+          "render(<App />, document.getElementById('root'));"
+        ],
+        "answer": "ReactDOM.render(<App />, document.getElementById('root'));"
+      },
+      {
+        "question": "What is state in React?",
+        "options": [
+          "An object that stores component's data",
+          "A component's lifecycle",
+          "A method in React components"
+        ],
+        "answer": "An object that stores component's data"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How do you handle events in React?",
+        "options": [
+          "Using onClick attribute",
+          "Using addEventListener",
+          "Both"
+        ],
+        "answer": "Using onClick attribute"
+      },
+      {
+        "question": "What is props in React?",
+        "options": [
+          "Properties that are passed to a component",
+          "A method to manipulate state",
+          "A lifecycle method"
+        ],
+        "answer": "Properties that are passed to a component"
+      },
+      {
+        "question": "How do you create a functional component in React?",
+        "options": [
+          "function MyComponent() { ... }",
+          "class MyComponent extends Component { ... }",
+          "<MyComponent />"
+        ],
+        "answer": "function MyComponent() { ... }"
+      },
+      {
+        "question": "What is the purpose of useEffect() hook in React?",
+        "options": [
+          "To perform side effects in function components",
+          "To manage state in class components",
+          "To render components"
+        ],
+        "answer": "To perform side effects in function components"
+      },
+      {
+        "question": "How do you update state in a React component?",
+        "options": [
+          "this.setState({ ... })",
+          "updateState({ ... })",
+          "setState({ ... })"
+        ],
+        "answer": "this.setState({ ... })"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What are React Hooks?",
+        "options": [
+          "Functions that let you use state and other React features without writing a class",
+          "Methods to hook React to other libraries",
+          "Hooks for routing in React applications"
+        ],
+        "answer": "Functions that let you use state and other React features without writing a class"
+      },
+      {
+        "question": "How do you perform server-side rendering in React?",
+        "options": [
+          "Using ReactDOMServer.renderToString()",
+          "Using React.renderToServer()",
+          "Using server-side components"
+        ],
+        "answer": "Using ReactDOMServer.renderToString()"
+      },
+      {
+        "question": "What is the useContext hook used for in React?",
+        "options": [
+          "To consume React context",
+          "To update component context",
+          "To create a new context"
+        ],
+        "answer": "To consume React context"
+      },
+      {
+        "question": "How do you handle routing in a React application?",
+        "options": [
+          "Using React Router",
+          "Using jQuery",
+          "Using inline routing"
+        ],
+        "answer": "Using React Router"
+      },
+      {
+        "question": "What is React.memo() used for?",
+        "options": [
+          "To optimize functional components by memoizing them",
+          "To create memoized components",
+          "To update props in memoized components"
+        ],
+        "answer": "To optimize functional components by memoizing them"
+      }
+    ]
+  }
+}

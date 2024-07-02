@@ -1,0 +1,46 @@
+@use "../abstracts/index" as abstract;
+
+#level {
+  display: none;
+  .wrapper {
+    @include abstract.flexContainerProperties(
+      94vh,
+      100%,
+      column,
+      space-between,
+      center
+    );
+
+    nav {
+      margin-bottom: 48px;
+    }
+
+    main {
+      div {
+        @include abstract.flexContainerProperties(
+          100%,
+          100%,
+          column,
+          center,
+          center
+        );
+
+        p {
+          margin: 24px 0;
+          background-color: abstract.$secondary-color;
+          padding: 24px;
+          width: 100%;
+          text-align: center;
+          border-radius: 16px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: abstract.$muted-color;
+            color: abstract.$secondary-color;
+          }
+        }
+      }
+    }
+  }
+}

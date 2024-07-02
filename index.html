@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizTechie</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section id="category">
+      <div class="wrapper">
+        <nav>
+          <h1>Select Your Category Here!</h1>
+        </nav>
+        <main>
+          <div class="tech-card" onClick="selectCategory('html')">
+            <img src="./images/html-5.png" alt="html" />
+          </div>
+          <div class="tech-card" onClick="selectCategory('css')">
+            <img src="./images/css-3.png" alt="css" />
+          </div>
+          <div class="tech-card" onClick="selectCategory('javascript')">
+            <img src="./images/javascript.png" alt="javascript" />
+          </div>
+          <div class="tech-card" onClick="selectCategory('react js')">
+            <img src="./images/react-js.png" alt="react js" />
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <section id="level">
+      <div class="wrapper">
+        <nav>
+          <h1>Now Select your level</h1>
+        </nav>
+        <main>
+          <div>
+            <p onClick="selectLevel('beginner')">Beginner</p>
+            <p onClick="selectLevel('intermediate')">Intermediate</p>
+            <p onClick="selectLevel('advanced')">Advanced</p>
+          </div>
+        </main>
+        <footer>&nbsp;</footer>
+      </div>
+    </section>
+
+    <section id="start-screen">
+      <div class="wrapper">
+        <h1>Welcome to QuizTechie!</h1>
+        <div>
+          <p id="welcome-message">
+            Test your knowledge in various tech categories.
+          </p>
+          <h2 id="selected-category-level"></h2>
+        </div>
+        <p class="btn" onclick="startQuiz()">Start Quiz</p>
+      </div>
+    </section>
+
+    <section id="quiz-start">
+      <div class="wrapper">
+        <nav>
+          <p>&nbsp;</p>
+          <h2 id="quiz-start-head"></h2>
+          <img
+            onclick="cancelQuiz()"
+            id="quiz-cancel"
+            src="./images/close.svg"
+            alt=""
+          />
+        </nav>
+        <main>
+          <h1 id="question"></h1>
+          <div id="options"></div>
+        </main>
+        <footer>&nbsp;</footer>
+      </div>
+    </section>
+
+    <section id="quiz-end">
+      <div class="wrapper">
+        <h2>Quiz Completed</h2>
+        <h1 id="score"></h1>
+        <p id="quiz-restart" class="btn-primary" onclick="restartQuiz()">
+          Restart
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

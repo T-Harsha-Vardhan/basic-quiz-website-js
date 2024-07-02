@@ -1,0 +1,16 @@
+@use "../abstracts/index" as abstract;
+
+#quiz-end {
+  display: none;
+  @include abstract.setHeightWidth(94vh, 100%);
+
+  .wrapper {
+    @include abstract.flexContainerProperties(
+      100%,
+      100%,
+      column,
+      space-between,
+      center
+    );
+  }
+}
